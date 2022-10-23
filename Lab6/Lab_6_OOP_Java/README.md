@@ -1,1 +1,0 @@
-# Lab_6_OOP_Java
