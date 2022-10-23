@@ -168,13 +168,7 @@ public class MyDate {
 
     public void fixValidDate() {
         if (!isValidDate(year, month, day)) {
-            if (isLeapYear(year) && month == 2){
-                if (day == 31 ) day = 29;
-            } else if (!isLeapYear(year) && month == 2){
-                if (day == 31) day = 28;
-            } else {
-                day--;
-            }
+            day--;
         }
     }
 
